@@ -78,12 +78,12 @@ label{
                     </div> 
 
                      <div class="div_design">
-                <label>Event Image Here :</label>
+                <label>Event Image Here </label>
                 <input  type="file" name="image" required="">
                     </div> 
 
                     <div class="div_design">
-                <input  type="submit" value="Add Product" class="btn btn-primary">
+                <input  type="submit" value="Add Event" class="btn btn-primary">
                     </div>
                 </fieldset>
                 </form>  

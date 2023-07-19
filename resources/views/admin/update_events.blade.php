@@ -86,16 +86,25 @@ label{
                 <input class="text_color" type="number" name="quantity" placeholder="Write a quantity" required="" value="{{$event->quantity}}">
                     </div>  
                     <div class="div_design">
+<<<<<<< HEAD
                 <label>Current Event Image Here :</label>
                 <img style="margin:auto;"  height="1000" width="200px" src="/addEvent/{{$event->image}}">
                     </div> 
                     
                      <div class="div_design">
                 <label style="margin-left:150px">Change Event Image Here :</label>
+=======
+                <label>Current Event Image Here </label>
+                <img style="margin:auto;"  height="100" width="100" src="/addEvent/{{$event->image}}">
+                    </div> 
+                    
+                     <div class="div_design">
+                <label>Change Event Image Here </label>
+>>>>>>> 9b9181c198a21db92c211758710e9d857ff4d7da
                 <input  type="file" name="image" value="{{$event->event_name}}">
                     </div> 
                     <div class="div_design">
-                <label>Event Staus:</label>
+                <label>Event Staus</label>
                 <select name="status">
                     <option value="0">Inactive</option>
                     <option value="1">Active</option>
@@ -103,7 +112,7 @@ label{
                     </div> 
 
                     <div class="div_design">
-                <input  type="submit" value="Update Product" class="btn btn-primary">
+                <input  type="submit" value="Update Event" class="btn btn-primary">
                     </div>
                    </fieldset>
                 </form>     

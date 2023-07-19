@@ -11,6 +11,10 @@ use App\Models\addEvent;
 use App\Models\ticket;
 
 
+use Session;
+use Stripe;
+
+
 class HomeController extends Controller
 {
     public function index(){
@@ -92,7 +96,36 @@ class HomeController extends Controller
             
             return redirect()->back();
         }
+        public function stripe($totalprice)
+        {
+            return view('home.stripe',compact('totalprice'));
+        }
+
+        public function stripePost(Request $request,$totalprice)
+        {
+            dd($totalprice);
+            Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+        
+            Stripe\Charge::create ([
+                    "amount" => $totalprice * 100,
+                    "currency" => "usd",
+                    "source" => $request->stripeToken,
+                    "description" => "Thank You for the Payment." 
+            ]);
+          
+            Session::flash('success', 'Payment successful!');
+                  
+            return back();
+        }
+
+        public function event()
+
+        {
+            $event=addEvent::where('status',1)->paginate(10);
+            // $event=addEvent::paginate(10);
             
+            return view('home.all_event',compact('event'));
+        }
         
     }
 
