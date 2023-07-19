@@ -74,24 +74,24 @@ label{
 
                      <div class="div_design">
                 <label>Event Price</label>
-                <input class="text_color" type="number" name="price" placeholder="Write a price" required="" value="{{$event->price}}">>
+                <input class="text_color" type="number" name="price" placeholder="Write a price" required="" value="{{$event->price}}">
                     </div>  
 
                     <div class="div_design">
                 <label>Quantity</label>
-                <input class="text_color" type="number" name="quantity" placeholder="Write a quantity" required="" value="{{$event->quantity}}">>
+                <input class="text_color" type="number" name="quantity" placeholder="Write a quantity" required="" value="{{$event->quantity}}">
                     </div>  
                     <div class="div_design">
-                <label>Current Event Image Here :</label>
+                <label>Current Event Image Here </label>
                 <img style="margin:auto;"  height="100" width="100" src="/addEvent/{{$event->image}}">
                     </div> 
                     
                      <div class="div_design">
-                <label>Change Event Image Here :</label>
-                <input  type="file" name="image" value="{{$event->event_name}}">>
+                <label>Change Event Image Here </label>
+                <input  type="file" name="image" value="{{$event->event_name}}">
                     </div> 
                     <div class="div_design">
-                <label>Event Staus:</label>
+                <label>Event Staus</label>
                 <select name="status">
                     <option value="0">Inactive</option>
                     <option value="1">Active</option>
@@ -99,7 +99,7 @@ label{
                     </div> 
 
                     <div class="div_design">
-                <input  type="submit" value="Update Product" class="btn btn-primary">
+                <input  type="submit" value="Update Event" class="btn btn-primary">
                     </div>
 
                 </form>     

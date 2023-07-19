@@ -14,7 +14,7 @@
                            <a class="nav-link" href="about.blade.php">About</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="product.html">Event</a>
+                           <a class="nav-link" href="{{url('events')}}">Event</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="{{url('show_tickets')}}">My Tickets</a>

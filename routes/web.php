@@ -35,3 +35,9 @@ Route::get('/event_details/{id}',[HomeController::class, 'event_details']);
 Route::post('/get_tickets/{id}',[HomeController::class, 'get_tickets']);
 Route::get('/show_tickets',[HomeController::class, 'show_tickets']);
 Route::get('/remove_tickets/{id}',[HomeController::class, 'remove_tickets']);
+Route::get('/stripe/{totalprice}',[HomeController::class, 'stripe']);
+Route::post('stripe/{totalprice}',[HomeController::class,  'stripePost'])->name('stripe.post');
+
+
+Route::get('/events',[HomeController::class, 'event']);
+

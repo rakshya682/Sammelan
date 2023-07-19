@@ -77,14 +77,7 @@
               <span class="menu-title">Blogs</span>
             </a>
           </li>
-          <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/tables/basic-table.html">
-              <span class="menu-icon">
-                <i class="mdi mdi-table-large"></i>
-              </span>
-              <span class="menu-title">Booking</span>
-            </a>
-          </li>
+          
           
         
           

@@ -92,8 +92,13 @@
 
         </table>
         <div>
-         <h1 style="font-size:20px; padding:40px;">Total Price :  {{$totalprice}}</h1>
+         <h1 style="font-size:20px; padding:40px;">Total Price :  Rs.{{$totalprice}}</h1>
       </div>
+      <div>
+         <h1 style="font-size:25px;  padding-bottom:15px;">Proceed to Order</h1>
+         <a href="{{url('stripe',$totalprice)}}" class="btn btn-danger">Pay Using Card</a>
+      </div>
+
 
         </div>
 
