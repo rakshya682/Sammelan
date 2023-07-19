@@ -1,6 +1,6 @@
 <section class="slider_section ">
             <div class="slider_bg_box">
-               <img src="images/sliderbg1.jpg" alt="">
+               <img src="images/aa.jpg" style="height: 700px; filter: blur(1px);"alt="">
             </div>
             <div id="customCarousel1" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
@@ -10,17 +10,17 @@
                            <div class="col-md-7 col-lg-6 ">
                               <div class="detail-box">
                                  <h1>
-                                    <span>
-                                    Summer Carnival  
+                                    <span style="margin-left:500px">
+                                   
                                     </span>
                                     <br>
-                                  At UN Park
+                                  
                                  </h1>
                                  <p>
-                                 Prepare for the feel good event of the  year with world class coasters and  awesome live entertainment at UN park's brand new summer event , carnival.
+                                 
                                  </p>
                                  <div class="btn-box">
-                                    <a href="" class="btn1">
+                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
                                     Get Tickets
                                     </a>
                                  </div>
@@ -36,16 +36,16 @@
                               <div class="detail-box">
                               <h1>
                                     <span>
-                                    Summer Carnival  
+                                    
                                     </span>
                                     <br>
-                                  At UN Park
+                                  
                                  </h1>
                                  <p>
-                                 Prepare for the feel good event of the  year with world class coasters and  awesome live entertainment at UN park's brand new summer event , carnival.
+                                 
                                  </p>
                                  <div class="btn-box">
-                                    <a href="" class="btn1">
+                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
                                     Get Tickets
                                     </a>
                                  </div>
@@ -61,16 +61,16 @@
                               <div class="detail-box">
                               <h1>
                                     <span>
-                                    Summer Carnival  
+                                    
                                     </span>
                                     <br>
-                                  At UN Park
+                                  
                                  </h1>
                                  <p>
-                                 Prepare for the feel good event of the  year with world class coasters and  awesome live entertainment at UN park's brand new summer event , carnival.
+                                 
                                  </p>
                                  <div class="btn-box">
-                                    <a href="" class="btn1">
+                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
                                     Get Tickets
                                     </a>
                                  </div>
