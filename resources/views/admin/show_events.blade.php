@@ -25,7 +25,7 @@
         }
         .th_color
         {
-            background:skyblue;
+            background:#113f67;
         }
         .th_deg
         {

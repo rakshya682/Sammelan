@@ -27,10 +27,27 @@
         .center
         {
             margin:auto;
-            width:50%;
+            width:70%;
             text-align:center;
             padding:30px;
+
         }
+        table,th,td
+        {
+         border:2px solid black;
+        }
+        .th_deg
+        {
+         fotn-size:50px;
+         padding:20px;
+         background:#fdffcd;
+        }
+        .img_deg
+        {
+         height:200px;
+         width:200px;
+        }
+        
 
 
         </style>
@@ -47,22 +64,36 @@
 
       <table>
         <tr>
-            <th>Event name</th>
-            <th>quantity</th>
-            <th>Price</th>
-            <th>Image</th>
-            <th>Action</th>
+            <th class="th_deg">Event name</th>
+            <th class="th_deg">quantity</th>
+            <th class="th_deg">Price</th>
+            <th class="th_deg">Image</th>
+            <th class="th_deg">Action</th>
          </tr>
+         <?php  $totalprice =0;  ?>
+
+
+         @foreach($ticket as $ticket)
          <tr>
-         <td>Event name</td>
-            <td>quantity</td>
-            <td>Price</td>
-            <td></td>
-            <td>Action</td>
+         <td>{{$ticket->event_name}}</td>
+            <td>{{$ticket->quantity}}</td>
+            <td>Rs.{{$ticket->price}}</td>
+            <td><img class="img_deg" src="/addEvent/{{$ticket->image}}"</td>
+            <td><a class="btn btn-danger" onclick="return confirm('Are you sure to remove this event?')" 
+            href="{{url('remove_tickets',$ticket->id)}}">Remove Event</a></td>
          </tr>
+
+         <?php $totalprice=$totalprice + $ticket->price ?>
+
+      @endforeach
+
+     
 
 
         </table>
+        <div>
+         <h1 style="font-size:20px; padding:40px;">Total Price :  {{$totalprice}}</h1>
+      </div>
 
         </div>
 

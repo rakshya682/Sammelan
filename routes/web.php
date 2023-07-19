@@ -34,3 +34,4 @@ Route::post('/update_events_confirm/{id}',[AdminController::class, 'update_event
 Route::get('/event_details/{id}',[HomeController::class, 'event_details']);
 Route::post('/get_tickets/{id}',[HomeController::class, 'get_tickets']);
 Route::get('/show_tickets',[HomeController::class, 'show_tickets']);
+Route::get('/remove_tickets/{id}',[HomeController::class, 'remove_tickets']);
