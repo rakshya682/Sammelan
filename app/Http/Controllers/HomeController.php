@@ -71,8 +71,28 @@ class HomeController extends Controller
         }
         public function show_tickets()
         {
-            return view('home.showtickets');
+            if(Auth::id())
+            {
+                $id=Auth::user()->id;
 
+                $ticket=ticket::where('user_id','=',$id)->get();
+    
+                return view('home.showtickets',compact('ticket'));
+            }
+           
+                else{
+                    return redirect('login');
+                }
         }
+        public function remove_tickets($id)
+        {
+            $ticket=ticket::find($id);
+
+            $ticket->delete();
+            
+            return redirect()->back();
+        }
+            
+        
     }
 
