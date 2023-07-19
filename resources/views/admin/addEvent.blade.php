@@ -35,11 +35,15 @@ label{
       @include('admin.navbar')
         <!-- partial -->
         <div class="content-wrapper"style="padding-top:100px">
+        <div style="border:solid; margin-left:25px;">
             <div class="div_center">
-                <h1 class="font_size">Add Events</h2>
+                <h1 class="font_size" style="font-family: Cambria">Add Events</h2>
 
-
-                <form action="{{url('/event_add')}}" method="POST" enctype="multipart/form-data">
+</>
+                <form action="{{url('/event_add')}}" method="POST" enctype="multipart/form-data"style="display: inline-block;
+  vertical-align: middle;
+  line-height: 14px; ">
+                <fieldset style="font-family: Cambria">
                     @csrf
                  <div class="div_design">
                 <label>Event Name</label>
@@ -47,8 +51,8 @@ label{
                     </div> 
 
                     <div class="div_design">
-                <label>Description</label>
-                <textarea class="text_color" type="text" name="description" placeholder="Write a description" required="" rows="4" cols="50">
+                <label style="margin-left:1px;">Description</label>
+                <textarea class="text_color" type="text" name="description" placeholder="Write a description" required="" rows="4" cols="25">
 </textarea>
                     </div>
 
@@ -81,8 +85,9 @@ label{
                     <div class="div_design">
                 <input  type="submit" value="Add Product" class="btn btn-primary">
                     </div>
-
-                </form>     
+                </fieldset>
+                </form>  
+</div>   
              </div>
 
                       

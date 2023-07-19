@@ -1,8 +1,10 @@
+
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
           <a class="sidebar-brand brand-logo" href="index.html"><img src="images/logo.png" alt="logo" /></a>
           <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="images/client2.jpg" alt="logo" /></a>
         </div>
+        
         <ul class="nav">
           <li class="nav-item profile">
             <div class="profile-desc">
@@ -68,6 +70,7 @@
               </span>
               <span class="menu-title">Show Events</span>
             </a>
+            
           </li>
           <li class="nav-item menu-items">
             <a class="nav-link" href="pages/icons/mdi.html">
@@ -90,3 +93,4 @@
           
         </ul>
       </nav>
+      

@@ -44,12 +44,16 @@ label{
                 {{session()->get('message')}}
             </div>
             @endif
+            <div style="border:solid; margin-left:20px;">
             <div class="div_center">
-                <h1 class="font_size">Update Events</h2>
+                <h1 class="font_size"style="font-family: Cambria">Update Events</h2>
 
 
-                <form action="{{url('/update_events_confirm',$event->id)}}" method="POST" enctype="multipart/form-data">
-                    @csrf
+                <form style="display: inline-block;
+  vertical-align: middle;
+  line-height: 14px; "action="{{url('/update_events_confirm',$event->id)}}" method="POST" enctype="multipart/form-data">
+                   <fieldset style="font-family: Cambria">
+                   @csrf
                  <div class="div_design">
                 <label>Event Name</label>
                 <input class="text_color" type="text" name="event_name" placeholder="Write the Event Name" required="" value="{{$event->event_name}}">
@@ -57,7 +61,7 @@ label{
 
                     <div class="div_design">
                 <label>Description</label>
-                <textarea class="text_color" type="text" name="description" placeholder="Write a description" required="" rows="4" cols="50">{{$event->description}}
+                <textarea class="text_color" type="text" name="description" placeholder="Write a description" required="" rows="4" cols="26">{{$event->description}}
 </textarea>
                     </div>
 
@@ -74,21 +78,21 @@ label{
 
                      <div class="div_design">
                 <label>Event Price</label>
-                <input class="text_color" type="number" name="price" placeholder="Write a price" required="" value="{{$event->price}}">>
+                <input class="text_color" type="number" name="price" placeholder="Write a price" required="" value="{{$event->price}}">
                     </div>  
 
                     <div class="div_design">
                 <label>Quantity</label>
-                <input class="text_color" type="number" name="quantity" placeholder="Write a quantity" required="" value="{{$event->quantity}}">>
+                <input class="text_color" type="number" name="quantity" placeholder="Write a quantity" required="" value="{{$event->quantity}}">
                     </div>  
                     <div class="div_design">
                 <label>Current Event Image Here :</label>
-                <img style="margin:auto;"  height="100" width="100" src="/addEvent/{{$event->image}}">
+                <img style="margin:auto;"  height="1000" width="200px" src="/addEvent/{{$event->image}}">
                     </div> 
                     
                      <div class="div_design">
-                <label>Change Event Image Here :</label>
-                <input  type="file" name="image" value="{{$event->event_name}}">>
+                <label style="margin-left:150px">Change Event Image Here :</label>
+                <input  type="file" name="image" value="{{$event->event_name}}">
                     </div> 
                     <div class="div_design">
                 <label>Event Staus:</label>
@@ -101,9 +105,10 @@ label{
                     <div class="div_design">
                 <input  type="submit" value="Update Product" class="btn btn-primary">
                     </div>
-
+                   </fieldset>
                 </form>     
              </div>
+</div>
 
                       
                

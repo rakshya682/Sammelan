@@ -34,19 +34,32 @@
         }
         table,th,td
         {
-         border:2px solid black;
+         border:1px solid black;
+        
+        
+        }
+        td{
+         background-color:white;
         }
         .th_deg
         {
-         fotn-size:50px;
+         
          padding:20px;
-         background:#fdffcd;
+         background:#ffbc34;
+         
         }
         .img_deg
         {
          height:200px;
          width:200px;
         }
+        /* tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+} */
         
 
 
@@ -60,25 +73,40 @@
        
         
       
-      <div class="center">
-
-      <table>
-        <tr>
+      <div class="center" style="background-image: url('images/o.png'); width:100%;">
+      
+      <table style="border-collapse: separate;
+      border: 1px;
+      
+      margin-left:240px;margin-top:10px; font-family: cursive, sans-serif;
+     
+      color: black;
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 10px 13px white;
+  max-width: 1000px;
+ 
+   
+  width: 100%;
+  
+  margin-right: auto;
+ ">
+        <tr style="	" >
             <th class="th_deg">Event name</th>
             <th class="th_deg">quantity</th>
             <th class="th_deg">Price</th>
-            <th class="th_deg">Image</th>
+            <th class="th_deg" >Image</th>
             <th class="th_deg">Action</th>
          </tr>
          <?php  $totalprice =0;  ?>
 
 
          @foreach($ticket as $ticket)
-         <tr>
+         <tr >
          <td>{{$ticket->event_name}}</td>
             <td>{{$ticket->quantity}}</td>
             <td>Rs.{{$ticket->price}}</td>
-            <td><img class="img_deg" src="/addEvent/{{$ticket->image}}"</td>
+            <td ><img style="width:100%;padding:20px" class="img_deg" src="/addEvent/{{$ticket->image}}"</td>
             <td><a class="btn btn-danger" onclick="return confirm('Are you sure to remove this event?')" 
             href="{{url('remove_tickets',$ticket->id)}}">Remove Event</a></td>
          </tr>

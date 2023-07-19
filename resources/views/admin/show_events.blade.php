@@ -20,8 +20,8 @@
         }
         .img_size
         {
-            width:150px;
-            height:150px;
+            width:auto;
+            height:auto;
         }
         .th_color
         {
@@ -29,7 +29,7 @@
         }
         .th_deg
         {
-            padding:30px;
+            padding:20px;
         }
 
     </style>
@@ -44,8 +44,8 @@
         <div class="content-wrapper"style="padding-top:100px">
         @if(session()->has('message'))
 
-        <div class=" alert alert success">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true"></button">
+        <div class=" alert alert success" style="background-color:white; width:100%;height:45px; margin-top:-28px;">
+            <button type="button" style="color:green;"class="close" data-dismiss="alert" aria-hidden="true"></button">
                 {{session()->get('message')}}
         </div>
 
