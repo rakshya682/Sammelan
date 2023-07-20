@@ -11,6 +11,8 @@ use App\Models\addEvent;
 use App\Models\ticket;
 use App\Models\ordeer;
 
+use RealRashid\SweetAlert\Facades\Alert;
+
 
 use Session;
 use Stripe;
@@ -67,8 +69,11 @@ class HomeController extends Controller
                 $ticket->quantity=$request->quantity;
 
                 $ticket->save();
+
+                Alert::success('Get Ticket Successfully','we have added ticket to the My ticket');
                 
                 return redirect()->back();
+                
             }
             else{
                 return redirect('login');
