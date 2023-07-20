@@ -101,22 +101,22 @@ class HomeController extends Controller
             return view('home.stripe',compact('totalprice'));
         }
 
-        public function stripePost(Request $request,$totalprice)
+        public function stripePost(Request $request, $totalprice)       
         {
-            dd($totalprice);
-            Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
-        
-            Stripe\Charge::create ([
-                    "amount" => $totalprice * 100,
-                    "currency" => "usd",
-                    "source" => $request->stripeToken,
-                    "description" => "Thank You for the Payment." 
-            ]);
-          
-            Session::flash('success', 'Payment successful!');
-                  
-            return back();
-        }
+    Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+
+    Stripe\Charge::create([
+        "amount" => $totalprice * 100,
+        "currency" => "usd",
+        "source" => $request->stripeToken,
+        "description" => "Thank You for the Payment."
+        ]);
+
+    Session::flash('success', 'Payment successful!');
+
+    return back();
+}
+
 
         public function event()
 
