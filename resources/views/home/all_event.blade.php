@@ -29,7 +29,7 @@
          
       
       <!-- product section -->
-      @include('home.event')
+      @include('home.event_view')
       <!-- end product section -->
 
       <!-- subscribe section -->
@@ -48,6 +48,7 @@
          
          </p>
       </div>
+      
       <!-- jQery -->
       <script src="home/js/jquery-3.4.1.min.js"></script>
       <!-- popper js -->

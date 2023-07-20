@@ -164,5 +164,11 @@ class HomeController extends Controller
             $event=addEvent::where('event_name','LIKE',"%$search_text%")->paginate(6);
             return view('home.userpage',compact('event'));
         }
+        public function search_event(Request $request)
+        {
+            $search_text=$request->search;
+            $event=addEvent::where('event_name','LIKE',"%$search_text%")->paginate(6);
+            return view('home.all_event',compact('event'));
+        }
     }
 

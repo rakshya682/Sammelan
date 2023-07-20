@@ -48,5 +48,8 @@ Route::post('stripe/{totalprice}',[HomeController::class,  'stripePost'])->name(
 
 
 Route::get('/event_search',[HomeController::class, 'event_search']);
+
 Route::get('/events',[HomeController::class, 'event']);
+
+Route::get('/search_event',[HomeController::class, 'search_event']);
 
