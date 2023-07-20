@@ -31,6 +31,8 @@ return array(
     'App\\Models\\Order' => $baseDir . '/app/Models/Order.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Models\\addEvent' => $baseDir . '/app/Models/addEvent.php',
+    'App\\Models\\oder' => $baseDir . '/app/Models/oder.php',
+    'App\\Models\\ordeer' => $baseDir . '/app/Models/ordeer.php',
     'App\\Models\\ticket' => $baseDir . '/app/Models/ticket.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',

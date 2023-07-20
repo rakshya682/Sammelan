@@ -9,6 +9,7 @@ use App\Models\User;
 use App\Models\addEvent;
 
 use App\Models\ticket;
+use App\Models\ordeer;
 
 
 use Session;
@@ -112,11 +113,42 @@ class HomeController extends Controller
         "description" => "Thank You for the Payment."
         ]);
 
+        
+            $user = Auth::user();
+            $userid = $user->id;
+            $data = ticket::where('user_id', '=', $userid)->get();
+        
+            foreach ($data as $ticket) {
+                $ordeer = new ordeer;
+                $ordeer->name = $ticket->name;
+                $ordeer->email = $ticket->email;
+                $ordeer->phone = $ticket->phone;
+                $ordeer->user_id = $ticket->user_id;
+                $ordeer->event_name = $ticket->event_name;
+                $ordeer->quantity = $ticket->quantity;
+                $ordeer->price = $ticket->price;
+                $ordeer->image = $ticket->image;
+                $ordeer->event_id = $ticket->event_id;
+                $ordeer->payment_status = "paid";
+                $ordeer->save();
+
+
+        
+                $ticket_id = $ticket->id;
+
+                $ticket=ticket::find($ticket_id);
+                $ticket->delete();
+            }
+        
+        
+        
+        
+
     Session::flash('success', 'Payment successful!');
 
     return back();
 }
-
+        
 
         public function event()
 
