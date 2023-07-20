@@ -4,7 +4,7 @@
 <section class="product_section layout_padding">
          <div class="container">
             <div class="heading_container heading_center">
-               
+            <h2> Our <span>Products</span></h2>
 
                <br><br>
 
@@ -23,7 +23,7 @@
                @foreach($event as $events)
 
                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="box">
+                  <div class="box"style="background-color: #EDE9E8; border:0px; ">
                      <div class="option_container">
                         <div class="options">
                            <a href="{{url('event_details',$events->id)}}" class="option1">
@@ -50,10 +50,10 @@
                         <img src="addEvent/{{$events->image}}" alt="">
                      </div>
                      <div class="detail-box">
-                        <h5>
+                        <h5 style="color:black;">
                         {{$events->event_name}}
                         </h5>
-                        <h6>
+                        <h6 style="color:black;">
                            Price<br>
                         Rs.{{$events->price}}
 

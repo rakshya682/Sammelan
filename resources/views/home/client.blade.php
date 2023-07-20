@@ -1,5 +1,7 @@
 
-<hr style="border-top: 3px solid black;"><section class="client_section layout_padding">
+
+
+<section style="background-color:#EDE9E8;"class="client_section layout_padding">
          <div class="container">
             <div class="heading_container heading_center">
                <h2>
@@ -88,4 +90,4 @@
             </div>
          </div>
       </section>
-      <hr style="border-top: 3px solid black;">
+    

@@ -1,6 +1,6 @@
 <section class="slider_section ">
             <div class="slider_bg_box">
-               <img src="images/aa.jpg" style="height: 700px; filter: blur(1px);"alt="">
+               <img src="images/h.jpg" style="height: 600px;  filter: brightness(0.5); -webkit-filter: brightness(0.6);"alt="">
             </div>
             <div id="customCarousel1" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
@@ -19,7 +19,7 @@
                                  <p>
                                  
                                  </p>
-                                 <div class="btn-box">
+                                 <div class="btn-box" style="margin-top:-80px">
                                  <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
                                     Get Tickets
                                     </a>
@@ -44,7 +44,7 @@
                                  <p>
                                  
                                  </p>
-                                 <div class="btn-box">
+                                 <div class="btn-box"style="margin-top:-80px">
                                  <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
                                     Get Tickets
                                     </a>
@@ -69,7 +69,7 @@
                                  <p>
                                  
                                  </p>
-                                 <div class="btn-box">
+                                 <div class="btn-box"style="margin-top:-80px">
                                  <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
                                     Get Tickets
                                     </a>

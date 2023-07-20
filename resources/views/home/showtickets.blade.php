@@ -46,14 +46,23 @@
         {
          
          padding:20px;
-         background:#f7444e;
+         background:#EDE9E8;
          
         }
+        .profile-picture {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto 10px;
+      background-image:url("images/client2.jpg"); 
+      background-size: 100px 100px;/* Replace with your profile picture */
+    }
         .img_deg
         {
          height:200px;
          width:200px;
         }
+        
         /* tr:nth-child(even) {
   background-color: rgba(150, 212, 212, 0.4);
 }
@@ -73,9 +82,33 @@ th:nth-child(even),td:nth-child(even) {
          <!-- end header section -->
        
         
-      
-      <div class="center" >
-      <table style=" width:100%; margin-left:70px;">
+        <div style="height:300px;width:15%;border-radius: 25px; box-shadow: 3px 3px;margin-left:40px;background-color:#EDE9E8;">
+        <div class="profile-picture"style="margin-top:15px;"></div><div style="margin-top:40px;">
+        <div style="font-size:20px; margin-left:75px;">Nissan </div>
+        <div style="font-size:20px; margin-left:25px;">Reward points: 0.0 </div>
+        </div>
+      </div> 
+      <div class="center" style="margin-top:-300px">
+      <button style="color:black;border:white;background-color:#EDE9E8; margin-left:130px;width:100%;height:60px;" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#purchasedCollapse" aria-expanded="false" aria-controls="purchasedCollapse">PURCHASED</button>
+<div class="collapse" style="visibility:visible;" id="purchasedCollapse">
+  <div class="card card-body" style="margin-left:130px;width:100%;">
+    <p>You don't have any tickets for upcoming shows.</p>
+  </div>
+</div>
+
+<button style="color:black;margin-top:10px;border:white;background-color:#EDE9E8;  margin-left:130px;width:100%;height:60px;" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#historyCollapse" aria-expanded="false" aria-controls="historyCollapse">HISTORY</button>
+<div class="collapse" style="visibility:visible;" id="historyCollapse">
+  <div class="card card-body" style="margin-left:130px;width:100%;">
+    <p>No tickets bought yet.</p>
+  </div>
+</div>
+      <button style="color:black;border:black;margin-top:10px;background-color:#EDE9E8;  margin-left:130px;width:100%;height:60px;" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> BOOKINGS
+</button>
+<div class="collapse" style="visibility:visible;" id="collapseExample">
+  <div class="card card-body" style=" margin-left:130px;width:100%;">
+    
+  
+      <table style=" width:100%; margin-left:0px;">
         <tr  >
             <th class="th_deg">Event name</th>
             <th class="th_deg">quantity</th>
@@ -105,11 +138,16 @@ th:nth-child(even),td:nth-child(even) {
 
         </table>
         <div>
+        </div>
+        
+</div>
+
          <h1 style="font-size:20px; padding:40px;">Total Price :  Rs.{{$totalprice}}</h1>
       </div>
-      <div>
+      <div style="margin-left:250px;margin-top:30px;">
          <h1 style="font-size:25px;  padding-bottom:15px;">Proceed to Order</h1>
-         <a href="{{url('stripe',$totalprice)}}" class="btn btn-danger">Pay Using Card</a>
+         <a href="{{url('stripe',$totalprice)}}" style=" border: none;font-size: 20px;background-color:black;" onmouseover="this.style.backgroundColor='#64c4ed'"
+        onmouseout="this.style.backgroundColor='black'"class="btn btn-danger">Pay Using Card</a>
       </div>
 
 

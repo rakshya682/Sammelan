@@ -28,10 +28,11 @@
          @include('home.header')
          <!-- end header section -->
    
-        
- 
-<div style="background-image: url('addEvent/{{$event->image}}'); width:100%; height:600px;">
-      <div style="margin-left:500px;margin-top:0px; font-family: cursive, sans-serif;
+        <!-- <yehaaaaa> -->
+ <div style="background-image: url('addEvent/{{$event->image}}');filter: blur(8px);height:500px;
+ background-size: 1000px 1000px;"></div>
+
+      <div style="margin-left:500px;margin-top:-500px; 
       background-color: white;
       color: black;
       padding: 10px;
@@ -41,7 +42,7 @@
                      <div class="img-box">
                         <img style="max-width: 100%; "src="addEvent/{{$event->image}}" alt="">
                      </div>
-                     <div class="detail-box">
+                     <div class="detail-box "style="margin-top:5px;box-sizing: ">
                         <h5>
                         {{$event->event_name}}
                         </h5>
@@ -57,28 +58,29 @@
                               @csrf
                               <div class="row">
                                  <div class="col-md-4">
-                                    
-                                 <input type="number"  style="color:black; width:80px; height:30px;margin-top:10px;margin-left:40px;"value=""name="quantity" value="1" min="1" >
+                                    <p>Ticket number :</p>
+                                 <input type="number"  style="color:black; width:80px; height:30px;"value=""name="quantity" value="1" min="1" >
                                  </div>
 
                                  <div class="col-md-4">
-                                 <input style="padding:8px;margin-top:3px;"type="submit"value="Get tickets">
+                                 <input style="padding:8px;margin-top:-50px;margin-left:80px; font-size:30px;"type="submit"value="Get tickets">
                               </div>
                            
                         </div>
                         </form>
 
                        
-                     </div>
+                    
                   </div>
                </div>
 
-</div>
-<hr style="border:dotted #f7444e 15px;
+
+      </div>
+<!-- <hr style="border:dotted #f7444e 15px;
   border-bottom: none;
   width:7%;
   margin-top:40px;
-  margin-left:650px;">
+  margin-left:650px;"> -->
       <!-- footer start -->
       @include('home.footer')
       <!-- footer end -->

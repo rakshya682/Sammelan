@@ -1,32 +1,16 @@
-<style>.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-    color: #f7444e;
-}</style>
+
 <section class="product_section layout_padding">
          <div class="container">
             <div class="heading_container heading_center">
                <h2>
                   Our <span>Event</span>
                </h2>
-
-
-               <br><br>
-
-               <div>
-                  <form action="{{url('event_search')}}" method="">
-                     @csrf
-                        <input style="width:500px;"type="text" name="search" placeholder="Search for something">
-                        <input type="submit" value="search">
-                  </form>
-                  
-               </div>
-
-
-                  </div>
+            </div>
             <div class="row">
                @foreach($event as $events)
 
                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="box">
+                  <div class="box"style="background-color:#EDE9E8; border:0px; ">
                      <div class="option_container">
                         <div class="options">
                            <a href="{{url('event_details',$events->id)}}" class="option1">
@@ -53,10 +37,10 @@
                         <img src="addEvent/{{$events->image}}" alt="">
                      </div>
                      <div class="detail-box">
-                        <h5>
+                        <h5 style="color:black;">
                         {{$events->event_name}}
-                        </h5>
-                        <h6>
+                        </h5 >
+                        <h6 style="color:black;">
                            Price<br>
                         Rs.{{$events->price}}
 
