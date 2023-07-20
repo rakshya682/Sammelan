@@ -23,7 +23,7 @@
             <span class="nav-link">Navigation</span>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="{{url('ordeer')}}">
               <span class="menu-icon">
                 <i class="mdi mdi-speedometer"></i>
               </span>
@@ -73,11 +73,11 @@
             
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="pages/icons/mdi.html">
+            <a class="nav-link"href="{{url('ordeer')}}">
               <span class="menu-icon">
-                <i class="mdi mdi-contacts"></i>
+                <i class="mdi mdi-playlist-play"></i>
               </span>
-              <span class="menu-title">Blogs</span>
+              <span class="menu-title">Order</span>
             </a>
           </li>
           

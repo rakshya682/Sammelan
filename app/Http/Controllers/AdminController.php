@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
  
 use App\Models\event;
 use App\Models\addEvent;
+use App\Models\ordeer;
 class AdminController extends Controller
 {
     public function view_event()
@@ -120,6 +121,11 @@ class AdminController extends Controller
 
 
 
+    }
+
+    public function ordeer(){
+        $ordeer=ordeer::all();
+        return view('admin.ordeer',compact('ordeer'));
     }
 
 
