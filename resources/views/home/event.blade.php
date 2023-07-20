@@ -7,7 +7,21 @@
                <h2>
                   Our <span>Event</span>
                </h2>
-            </div>
+
+
+               <br><br>
+
+               <div>
+                  <form action="{{url('event_search')}}" method="">
+                     @csrf
+                        <input style="width:500px;"type="text" name="search" placeholder="Search for something">
+                        <input type="submit" value="search">
+                  </form>
+                  
+               </div>
+
+
+                  </div>
             <div class="row">
                @foreach($event as $events)
 
