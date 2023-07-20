@@ -23,7 +23,7 @@
       <link href="home/css/responsive.css" rel="stylesheet" />
    </head>
    <body>
-      <div class="hero_area" style="">
+      <div class="hero_area" >
          <!-- header section strats -->
          @include('home.header')
          <!-- end header section -->
