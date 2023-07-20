@@ -9,7 +9,7 @@
     
 <div class="container">
     
-    <h1>Pay Using Your Card  - Total Amount Rs.{{$totalprice}}</h1>
+    <h1>Pay Using Your Card  - Total Amount RS{{$totalprice}}</h1> 
     
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
