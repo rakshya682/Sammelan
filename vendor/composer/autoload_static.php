@@ -610,6 +610,8 @@ class ComposerStaticInit640de7cb1d96a1cb2398244164b95d70
         'App\\Models\\Order' => __DIR__ . '/../..' . '/app/Models/Order.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\addEvent' => __DIR__ . '/../..' . '/app/Models/addEvent.php',
+        'App\\Models\\oder' => __DIR__ . '/../..' . '/app/Models/oder.php',
+        'App\\Models\\ordeer' => __DIR__ . '/../..' . '/app/Models/ordeer.php',
         'App\\Models\\ticket' => __DIR__ . '/../..' . '/app/Models/ticket.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',

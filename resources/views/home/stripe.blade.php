@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <base href="/public">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/favicon1.png" type="">
+      <title>Sammelaan</title>
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
+      <!-- font awesome style -->
+      <link href="home/css/font-awesome.min.css" rel="stylesheet" />
+      <!-- Custom styles for this template -->
+      <link href="home/css/style.css" rel="stylesheet" />
+      <!-- responsive style -->
+      <link href="home/css/responsive.css" rel="stylesheet" /> 
 </head>
 <body>
+<div class="hero_area">
+         <!-- header section strats -->
+      <span style="font-size: 15px;" >  @include('home.header')</span>
+
     
 <div class="container">
     
-    <h1>Pay Using Your Card  - Total Amount RS{{$totalprice}}</h1> 
+    <h1 style="text-align: center ; font-size:24px; padding-bottom:20px;">Pay Using Your Card  - Total Amount RS{{$totalprice}}</h1> 
     
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
@@ -78,7 +93,7 @@
     
                         <div class="row">
                             <div class="col-xs-12">
-                                <button class="btn btn-primary btn-lg btn-block" type="submit">Pay Now</button>
+                            <input type="submit" name="" value="Pay Now">
                             </div>
                         </div>
                             
