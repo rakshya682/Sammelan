@@ -1,3 +1,6 @@
+<style>.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
+    color: #f7444e;
+}</style>
 <section class="product_section layout_padding">
          <div class="container">
             <div class="heading_container heading_center">

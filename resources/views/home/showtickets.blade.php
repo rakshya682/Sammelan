@@ -38,6 +38,7 @@
         
         
         }
+        
         td{
          background-color:white;
         }
@@ -45,7 +46,7 @@
         {
          
          padding:20px;
-         background:#ffbc34;
+         background:#f7444e;
          
         }
         .img_deg
@@ -73,29 +74,13 @@ th:nth-child(even),td:nth-child(even) {
        
         
       
-      <div class="center" style="background-image: url('images/o.png'); width:100%;">
-      
-      <table style="border-collapse: separate;
-      border: 1px;
-      
-      margin-left:240px;margin-top:10px; font-family: cursive, sans-serif;
-     
-      color: black;
-      padding: 10px;
-      border-radius: 4px;
-      box-shadow: 2px 2px 10px 13px white;
-  max-width: 1000px;
- 
-   
-  width: 100%;
-  
-  margin-right: auto;
- ">
-        <tr style="	" >
+      <div class="center" >
+      <table style=" width:100%; margin-left:70px;">
+        <tr  >
             <th class="th_deg">Event name</th>
             <th class="th_deg">quantity</th>
             <th class="th_deg">Price</th>
-            <th class="th_deg" >Image</th>
+            <!-- <th class="th_deg" >Image</th> -->
             <th class="th_deg">Action</th>
          </tr>
          <?php  $totalprice =0;  ?>
@@ -106,9 +91,9 @@ th:nth-child(even),td:nth-child(even) {
          <td>{{$ticket->event_name}}</td>
             <td>{{$ticket->quantity}}</td>
             <td>Rs.{{$ticket->price}}</td>
-            <td ><img style="width:100%;padding:20px" class="img_deg" src="/addEvent/{{$ticket->image}}"</td>
+            <!-- <td ><img style="width:100%;padding:20px" class="img_deg" src="/addEvent/{{$ticket->image}}"</td> -->
             <td><a class="btn btn-danger" onclick="return confirm('Are you sure to remove this event?')" 
-            href="{{url('remove_tickets',$ticket->id)}}">Remove Event</a></td>
+            href="{{url('remove_tickets',$ticket->id)}}">Remove Tickets</a></td>
          </tr>
 
          <?php $totalprice=$totalprice + $ticket->price ?>

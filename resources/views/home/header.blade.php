@@ -1,3 +1,4 @@
+
 <header class="header_section">
             <div class="container">
                <nav class="navbar navbar-expand-lg custom_nav-container ">
@@ -10,7 +11,7 @@
                         <li class="nav-item active">
                            <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                            <a class="nav-link" href="about.blade.php">About</a>
                         </li>
                         <li class="nav-item">
