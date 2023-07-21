@@ -82,7 +82,7 @@ th:nth-child(even),td:nth-child(even) {
          <!-- end header section -->
        
         
-        <div style="height:300px;width:15%;border-radius: 25px; box-shadow: 3px 3px;margin-left:40px;background-color:#EDE9E8;">
+        <div style="height:300px;width:15%;border-radius: 25px;margin-top:50px; box-shadow: 3px 3px;margin-left:40px;background-color:#EDE9E8;">
         <div class="profile-picture"style="margin-top:15px;"></div><div style="margin-top:40px;">
         <div style="font-size:20px; margin-left:75px;">Nissan </div>
         <div style="font-size:20px; margin-left:25px;">Reward points: 0.0 </div>

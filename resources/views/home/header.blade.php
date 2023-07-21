@@ -2,7 +2,7 @@
 <header class="header_section" style="height:70px;padding-top:7px;">
             <div class="container">
                <nav class="navbar navbar-expand-lg custom_nav-container ">
-                  <a style="margin-left:-70px;"class="navbar-brand" href="{{url('/')}}"><img width="250" src="images/mainlogo.png" alt="#" /></a>
+                  <a style="margin-left:-70px;"class="navbar-brand" href="{{url('/')}}"><img width="250" style="height:50px;"src="images/mainlogo.png" alt="#" /></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class=""> </span>
                   </button>
@@ -18,7 +18,7 @@
                            <a class="nav-link" href="{{url('events')}}">Event</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="{{url('show_tickets')}}"><p>My Tickets</p></a>
+                           <a class="nav-link" href="{{url('show_tickets')}}"><p>Tickets</p></a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="{{url('contact')}}">Contact</a>
