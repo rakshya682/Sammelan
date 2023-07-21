@@ -4,7 +4,7 @@
                <div class="col-md-4">
                    <div class="full">
                       <div class="logo_footer">
-                        <a href="#"><img width="210" src="images/logo.png" alt="#" /></a>
+                        <a href="#"><img width="210" src="images/mainlogo.png" alt="#" /></a>
                       </div>
                       <div class="information_f">
                         <p><strong>ADDRESS:</strong> Apex College,Kathmandu</p>
@@ -23,8 +23,8 @@
                         <ul>
                            <li><a href="#">Home</a></li>
                            <li><a href="#">About</a></li>
-                           <li><a href="#">Services</a></li>
-                           <li><a href="#">Testimonial</a></li>
+                           <li><a href="#">Event</a></li>
+                           <li><a href="#">My tickets</a></li>
                            <li><a href="#">Blog</a></li>
                            <li><a href="#">Contact</a></li>
                         </ul>
@@ -34,12 +34,10 @@
                      <div class="widget_menu">
                         <h3>Account</h3>
                         <ul>
-                           <li><a href="#">Account</a></li>
-                           <li><a href="#">Checkout</a></li>
+                          
                            <li><a href="#">Login</a></li>
                            <li><a href="#">Register</a></li>
-                           <li><a href="#">Booking</a></li>
-                           <li><a href="#">Widget</a></li>
+                          
                         </ul>
                      </div>
                   </div>
