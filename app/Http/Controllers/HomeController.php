@@ -154,6 +154,10 @@ public function about(){
     return view('home.about');
 }
 
+public function contact(){
+    return view('home.contact');
+}
+
 public function paymentsuccess(){
 return view('home.ticket');
 }

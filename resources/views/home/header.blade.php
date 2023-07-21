@@ -21,7 +21,7 @@
                            <a class="nav-link" href="{{url('show_tickets')}}"><p>My Tickets</p></a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="contact.html">Contact</a>
+                           <a class="nav-link" href="{{url('contact')}}">Contact</a>
                         </li>
                         
                         @if (Route::has('login'))

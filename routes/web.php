@@ -44,6 +44,7 @@ Route::get('/stripe/{totalprice}',[HomeController::class, 'stripe']);
 Route::post('stripe/{totalprice}',[HomeController::class,  'stripePost'])->name('stripe.post');
 Route::get('stripee/success',[HomeController::class, 'paymentsuccess'])->name('stripe.success');
 Route::get('/about',[HomeController::class, 'about']);
+Route::get('/contact',[HomeController::class, 'contact']);
 
 
 
