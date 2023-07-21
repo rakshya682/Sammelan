@@ -42,7 +42,8 @@ Route::get('/show_tickets',[HomeController::class, 'show_tickets']);
 Route::get('/remove_tickets/{id}',[HomeController::class, 'remove_tickets']);
 Route::get('/stripe/{totalprice}',[HomeController::class, 'stripe']);
 Route::post('stripe/{totalprice}',[HomeController::class,  'stripePost'])->name('stripe.post');
-
+Route::get('stripee/success',[HomeController::class, 'paymentsuccess'])->name('stripe.success');
+Route::get('/about',[HomeController::class, 'about']);
 
 
 

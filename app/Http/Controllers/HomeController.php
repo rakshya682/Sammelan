@@ -122,7 +122,6 @@ class HomeController extends Controller
             $user = Auth::user();
             $userid = $user->id;
             $data = ticket::where('user_id', '=', $userid)->get();
-        
             foreach ($data as $ticket) {
                 $ordeer = new ordeer;
                 $ordeer->name = $ticket->name;
@@ -145,13 +144,18 @@ class HomeController extends Controller
                 $ticket->delete();
             }
         
+        return view('home.ticket');
         
         
-        
+    //Session::flash('success', 'Payment successful!');
+}
 
-    Session::flash('success', 'Payment successful!');
+public function about(){
+    return view('home.about');
+}
 
-    return back();
+public function paymentsuccess(){
+return view('home.ticket');
 }
         
 
