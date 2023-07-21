@@ -18,9 +18,12 @@
   </head>
 
 
-  <body style="min-height: 100vh; width: 100%; background: #c8e8e9; display: flex; align-items: center; justify-content: center;">
-  <div>
+  <body style="min-height: 100vh; width: 100%; background: ; display: flex; align-items: center; justify-content: center;">
+  <div >
+    <div style="margin-top:-130px;padding:10px;">
   @include('home.header')
+</div>
+
 <div>
     <div class="container" style="width: 85%; background: #fff; border-radius: 6px; padding: 20px 60px 30px 40px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);">
       <div class="content" style="display: flex; align-items: center; justify-content: space-between;">
@@ -28,8 +31,8 @@
           <div class="address details" style="margin: 14px; text-align: center;">
             <i class="fas fa-map-marker-alt" style="font-size: 30px; color: #3e2093; margin-bottom: 10px;"></i>
             <div class="topic" style="font-size: 18px; font-weight: 500;">Address</div>
-            <div class="text-one" style="font-size: 14px; color: #afafb6;">Surkhet, NP12</div>
-            <div class="text-two" style="font-size: 14px; color: #afafb6;">Birendranagar 06</div>
+            <div class="text-one" style="font-size: 14px; color: #afafb6;">New baneshwor</div>
+            <div class="text-two" style="font-size: 14px; color: #afafb6;">Kathmandu</div>
           </div>
           <div class="phone details" style="margin: 14px; text-align: center;">
             <i class="fas fa-phone-alt" style="font-size: 30px; color: #3e2093; margin-bottom: 10px;"></i>
@@ -40,8 +43,8 @@
           <div class="email details" style="margin: 14px; text-align: center;">
             <i class="fas fa-envelope" style="font-size: 30px; color: #3e2093; margin-bottom: 10px;"></i>
             <div class="topic" style="font-size: 18px; font-weight: 500;">Email</div>
-            <div class="text-one" style="font-size: 14px; color: #afafb6;">codinglab@gmail.com</div>
-            <div class="text-two" style="font-size: 14px; color: #afafb6;">info.codinglab@gmail.com</div>
+            <div class="text-one" style="font-size: 14px; color: #afafb6;">sammelan@gmail.com</div>
+            <div class="text-two" style="font-size: 14px; color: #afafb6;">sammelan@gmail.com</div>
           </div>
         </div>
         <div class="right-side" style="width: 75%; margin-left: 75px;">

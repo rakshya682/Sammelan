@@ -102,7 +102,7 @@ th:nth-child(even),td:nth-child(even) {
     <p>No tickets bought yet.</p>
   </div>
 </div>
-      <button style="color:black;border:black;margin-top:10px;background-color:#EDE9E8;  margin-left:130px;width:100%;height:60px;" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> BOOKINGS
+      <button style="color:black;border:black;margin-top:10px;background-color:#EDE9E8;  margin-left:130px;width:100%;height:60px;" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> BOOKED TICKETS
 </button>
 <div class="collapse" style="visibility:visible;" id="collapseExample">
   <div class="card card-body" style=" margin-left:130px;width:100%;">
