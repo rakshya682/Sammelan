@@ -27,9 +27,11 @@
       @include('sweetalert::alert')
       
          @include('home.header')
-     
+         <img src="images/mainlog.png" style="width:30%;margin-top:300px;">
+
       <div style="background-color:#EDE9E8; ">
-      <div> <div><img src="futsalnepal.jpg" style="width:40%;"><div style="height:300px;margin-left:500px;margin-top:70px">
+      
+      <div> <div><div style="height:300px;margin-left:300px;margin-top:-300px">
       <div style="font-size:30px;margin-left:350px;">ABOUT US</div><pre style="font-size:16px;">
       Sammelan is a ticket management and booking system that solves the problem of scattered event 
       information found on different mobile applications and websites. In today's digital world, it 

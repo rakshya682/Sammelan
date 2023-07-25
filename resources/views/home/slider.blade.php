@@ -5,73 +5,75 @@
             <div id="customCarousel1" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <div class="container ">
+                  <div class="container ">
                         <div class="row">
                            <div class="col-md-7 col-lg-6 ">
                               <div class="detail-box">
-                                 <h1>
-                                    <span style="margin-left:500px">
-                                   
-                                    </span>
-                                    <br>
-                                  
-                                 </h1>
-                                 <p>
-                                 
-                                 </p>
-                                 <div class="btn-box" style="margin-top:-80px">
-                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
-                                    Get Tickets
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item ">
-                     <div class="container ">
-                        <div class="row">
-                           <div class="col-md-7 col-lg-6 ">
-                              <div class="detail-box">
-                              <h1>
+                              <h3 style="font-size:40px; width:100%;">EASY WAY FOR YOU TO BUY EVENT TICKETS,
                                     <span>
-                                    
+                                    VIEW EVENTS DETAILS
                                     </span>
                                     <br>
                                   
-                                 </h1>
-                                 <p>
-                                 
+                                 </h3>
+                                 <p style="font-size:20px;">
+                                 Collect, connect and Celebrate
                                  </p>
                                  <div class="btn-box"style="margin-top:-80px">
-                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
-                                    Get Tickets
+                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:40px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
+                                    Explore Events
                                     </a>
                                  </div>
                               </div>
                            </div>
                         </div>
                      </div>
+                  
+                  </div>
+                  <div class="carousel-item ">
+                  <div class="container ">
+                        <div class="row">
+                           <div class="col-md-7 col-lg-6 ">
+                              <div class="detail-box">
+                              <h3 style="font-size:40px; width:100%;">EASY WAY FOR YOU TO BUY EVENT TICKETS,
+                                    <span>
+                                    VIEW EVENTS DETAILS
+                                    </span>
+                                    <br>
+                                  
+                                 </h3>
+                                 <p style="font-size:20px;">
+                                 Collect, connect and Celebrate
+                                 </p>
+                                 <div class="btn-box"style="margin-top:-80px">
+                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:40px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
+                                 Explore Events
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  
                   </div>
                   <div class="carousel-item">
                      <div class="container ">
                         <div class="row">
                            <div class="col-md-7 col-lg-6 ">
                               <div class="detail-box">
-                              <h1>
+                              <h3 style="font-size:40px; width:100%;">EASY WAY FOR YOU TO BUY EVENT TICKETS,
                                     <span>
-                                    
+                                    VIEW EVENTS DETAILS
                                     </span>
                                     <br>
                                   
-                                 </h1>
-                                 <p>
-                                 
+                                 </h3>
+                                 <p style="font-size:20px;">
+                                 Collect, connect and Celebrate
                                  </p>
                                  <div class="btn-box"style="margin-top:-80px">
-                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:320px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
-                                    Get Tickets
+                                 <a style="font-family:Arial; white-space: nowrap; margin-left:500px; margin-top:40px;padding-left:50px; padding-right:50px; font-size: 20px;" href="" class="btn1">
+                                 Explore Events
                                     </a>
                                  </div>
                               </div>

@@ -64,7 +64,7 @@
                                  </div>
 
                                  <div class="col-md-4">
-                                 <input style="padding:8px;margin-top:-50px;margin-left:80px; font-size:30px;"type="submit"value="Get tickets">
+                                 <input style="padding:8px;margin-top:25px;margin-left:80px; font-size:30px;"type="submit"value="Get tickets">
                               </div>
                            
                         </div>

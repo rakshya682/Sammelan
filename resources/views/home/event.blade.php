@@ -1,4 +1,6 @@
-
+<style>.checked {
+  color: orange;
+}</style>
 <section class="product_section layout_padding">
          <div class="container">
             <div class="heading_container heading_center">
@@ -45,7 +47,11 @@
                         Rs.{{$events->price}}
 
                         </h6>
-      
+      <div style="margin-left:-50px; margin-top:130px;"><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></div>
                      </div>
                   </div>
                </div>

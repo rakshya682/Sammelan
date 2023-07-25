@@ -1,10 +1,33 @@
 <style>.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
     color: #f7444e;
-}</style>
+}
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  font-size: 25px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.rating label:before {
+  content: '\2605'; /* Unicode character for a star */
+}
+
+.rating input:checked ~ label {
+  color: #f8d32b; /* Change color to the desired rating color */
+}
+</style>
 <section class="product_section layout_padding">
          <div class="container">
             <div class="heading_container heading_center">
-            <h2> Our <span>Products</span></h2>
+            <h2> Our <span>Events</span></h2>
 
                <br><br>
 
@@ -58,6 +81,19 @@
                         Rs.{{$events->price}}
 
                         </h6>
+                        <div class="rating" style="margin-top:70px;">
+  <input type="radio" name="rating" id="star5" value="5">
+  <label for="star5"></label>
+  <input type="radio" name="rating" id="star4" value="4">
+  <label for="star4"></label>
+  <input type="radio" name="rating" id="star3" value="3">
+  <label for="star3"></label>
+  <input type="radio" name="rating" id="star2" value="2">
+  <label for="star2"></label>
+  <input type="radio" name="rating" id="star1" value="1">
+  <label for="star1"></label>
+</div>
+
       
                      </div>
                   </div>
